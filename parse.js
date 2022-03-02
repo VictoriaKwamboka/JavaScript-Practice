@@ -1,0 +1,1 @@
+var age = prompt('Enter you age')
