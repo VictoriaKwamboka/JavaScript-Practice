@@ -46,4 +46,22 @@ const hummus = function(factor){
 console.log(hummus(2));
 
 
+//arrow alternative
+
+const humma = (factor) => {
+    const ingredient = (amount, unit, comName) => {
+        let ingredientAmount = factor * amount;
+            if (ingredientAmount > 1){
+                unit += 's'
+            }
+            console.log(`${ingredientAmount} ${amount} ${comName}`);
+    }
+    ingredient(1, 'can' ,'chickenpeas')
+    ingredient(0.25, 'cup', 'tahini')
+    ingredient(0.25, 'cup','lemon juice')
+
+}
+
+console.log(humma(3.5));
+
 
