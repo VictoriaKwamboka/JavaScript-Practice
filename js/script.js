@@ -35,10 +35,31 @@
 
 // alert(upperCases)
 
-//greeting
+//greeting using map
 
-var friends = ['dolvine','sam','chacha','bill','reuben'];
-var greeting = friends.forEach(function(friend){
-    alert ('Hello ' + friend);
+// var friends = ['dolvine','sam','chacha','bill','reuben'];
+// var greeting = friends.forEach(function(friend){
+//     alert ('Hello ' + friend);
+// });
+
+
+//double numbers using foreach 
+// var numbers = [10,9,8,7,6];
+// var doubledNumbers = [];
+// numbers.forEach(function(number){
+//     doubledNumbers.push(number*2)
+// });
+// alert(doubledNumbers);
+
+
+//double numbers using map(to transform array into a new one)
+
+
+var numbers = [1,2,3,4,5];
+var doubledNumbers = numbers.map(function(number){
+    return number*2
 });
+alert(doubledNumbers)
+    
+
 
