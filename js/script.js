@@ -24,14 +24,21 @@
 // var addOne = numbers.map(function(number){
 //     return number +1
 // });
-
 // alert(addOne)
 
 //map to return uppercase of array elements
 
-var lowerCases = ['victoria', 'peter','mercy','mitchelle']
-var upperCases = lowerCases.map(function(lowerCase){
-    return lowerCase.toUpperCase();
+// var lowerCases = ['victoria', 'peter','mercy','mitchelle']
+// var upperCases = lowerCases.map(function(lowerCase){
+//     return lowerCase.toUpperCase();
+// });
+
+// alert(upperCases)
+
+//greeting
+
+var friends = ['dolvine','sam','chacha','bill','reuben'];
+var greeting = friends.forEach(function(friend){
+    alert ('Hello ' + friend);
 });
 
-alert(upperCases)
