@@ -19,9 +19,19 @@
 
 
 //map to add one to each element of an array
-var numbers = [2,3,4,5,6,7]
-var addOne = numbers.map(function(number){
-    return number +1
+
+// var numbers = [2,3,4,5,6,7]
+// var addOne = numbers.map(function(number){
+//     return number +1
+// });
+
+// alert(addOne)
+
+//map to return uppercase of array elements
+
+var lowerCases = ['victoria', 'peter','mercy','mitchelle']
+var upperCases = lowerCases.map(function(lowerCase){
+    return lowerCase.toUpperCase();
 });
 
-alert(addOne)
+alert(upperCases)
