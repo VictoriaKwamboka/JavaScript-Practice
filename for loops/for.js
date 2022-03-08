@@ -7,7 +7,15 @@
 
 //print an output
 
-fruits = 'mango passion banana'.split(" ")
-for (index = 0; index < fruits.length; index +=1){
-    alert('My favorite fruit is '+fruits[index]);
+// fruits = 'mango passion banana'.split(" ")
+// for (index = 0; index < fruits.length; index +=1){
+//     alert('My favorite fruit is '+fruits[index]);
+// }
+
+//addition using for loop
+let total = 0;
+summands = [2,4,6,8]
+for (let index = 0; index < summands.length; index ++){
+    total += summands[index];
 }
+alert(total)
